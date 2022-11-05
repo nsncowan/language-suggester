@@ -20,13 +20,63 @@
 
     <div class="form-group">
       <form id="languageSurvey">
-
-
-
-        <button type="submit">Submit your answers!</button>
+        <h5>Which language attribute is most important to you?</h5>
+        <select id="priority" class="form-control">
+          <option value="1">It's beginner friendly</option>
+          <option value="2">It's versatile</option>
+          <option value="3">It's highly in-demand</option>
+        </select>
+        <br>
+        
+        <div class="form-check">
+          <h5>Which statement applies most to you?</h5>
+            <input type="radio" name="question1" value="yes" id="worried" checked>
+            <label for="worried">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+            <br>
+            <input type="radio" name="question1" value="no" id="notWorried">
+            <label for="notWorried">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+            <br>
+            <input type="radio" name="question1" value="no" id="welcome">
+            <label for="welcome">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+          <br>
+          <br>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h5>
+            <input type="radio" name="question2" value="yes" id="help" checked>
+            <label for="help">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+            <br>
+            <input type="radio" name="question2" value="no" id="notHelp">
+            <label for="notHelp">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+        </div>
+        <br>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h5>
+          <select id="question3" class="form-control">
+            <option>Choice 1</option>
+            <option>Choice 2</option>
+            <option>Choice 3</option>
+          </select>
+        <br>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h5>
+          <select name="question4" id="form-control">
+            <option>Lorem ipsum dolor sit amet, consectetur adipiscing elit</option>
+            <option>Lorem ipsum dolor sit amet, consectetur adipiscing elit</option>
+          </select>
+        <button type="submit">Submit Your Answers!</button>
       </form>
     </div>
 
+    <h1 id="resultsHeading" class="hidden">Results!</h1>
+
+    <p id="result1" class="hidden">Based on our calculations, <span id="name1">____</span>, you should learn Rust. </p>
+
+    <p id="result2" class="hidden">Based on our calculations, <span id="name2">___</span>, you should learn C#.</p>
+
+    <p id="result3" class="hidden">Based on our calculations, <span id="name3">___</span>, you should leard Ruby.</p>
+
+    <p id="result4" class="hidden">Based on our calculations, <span id="name5">____</span>, you should learn Swift.</p>
+
+    <p id="result5" class="hidden">Based on our calculations, <span id="name6">____</span>, you should learn Java.</p>
+
+    <p id="result6" class="hidden">Based on our calculations, <span id="name7">____</span>, you should learn Perl.</p>
 
   </div>
 </body>
