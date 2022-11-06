@@ -13,7 +13,7 @@ function processSurvey(event) {
   hideResults();
   const mostImportant = document.getElementById("mostImportant").value;
   const question2 = document.querySelector("input[name='question2']:checked").value
-  const name = document.getElementById("userName").value;
+  const name = document.getElementById("name").value;
   
   document.getElementById("resultsHeading").removeAttribute("class");
   
